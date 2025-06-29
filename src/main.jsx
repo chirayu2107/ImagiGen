@@ -6,6 +6,7 @@ import ContextProvider from "./context/Context.jsx"; // Importing the ContextPro
 
 // Rendering the root component of the application
 ReactDOM.createRoot(document.getElementById("root")).render(
+  
   <ContextProvider> {/* Wrapping the App component with the ContextProvider */}
     <App /> {/* Rendering the main App component */}
   </ContextProvider>
