@@ -5,6 +5,7 @@ function App() {
   return (
     <>
       <Sidebar /> {/* Rendering the Sidebar component */}
+      
       <Main /> {/* Rendering the Main component */}
     </>
   );
